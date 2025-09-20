@@ -1,0 +1,30 @@
+{
+  "name": "@austinsdk/auth",
+  "version": "1.0.0",
+  "description": "Austin SDK - Authentication helper for Austin SDK services",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AustinSDK/npm-austinsdk.js.git"
+  },
+  "keywords": [
+    "austin",
+    "sdk",
+    "authentication",
+    "oauth",
+    "api"
+  ],
+  "author": "Austin's SDK",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AustinSDK/npm-austinsdk.js/issues"
+  },
+  "homepage": "https://github.com/AustinSDK/npm-austinsdk.js#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
