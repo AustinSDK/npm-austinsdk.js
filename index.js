@@ -9,7 +9,7 @@ class Auth {
      * @param {string} redirect_uri - Redirect url from application
      */
     constructor(url, client_id, client_secret, redirect_uri) {
-        this.url = url;
+        this.url = url || "https://auth.austinsdk.me";
         this.client_id = client_id;
         this.client_secret = client_secret;
         this.redirect_uri = redirect_uri;
